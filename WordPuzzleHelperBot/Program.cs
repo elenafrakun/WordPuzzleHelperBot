@@ -11,7 +11,7 @@ namespace WordPuzzleHelperBot
     {
         static async Task Main(string[] args)
         {
-            var token = "{YOUR_ACCESS_TOKEN_HERE}";
+            var token = "ACCESS_TOKEN_HERE";
             var botClient = new WordPuzzleHelperBotClient(token);
             using var cancellationTokenSource = new CancellationTokenSource();
 
